@@ -29,7 +29,7 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            TRVL
+            playNativa
             <i class="fab fa-typo3" />
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -41,25 +41,40 @@ function Navbar() {
                 Home
               </Link>
             </li>
-            <li className="nav-item">
-              <Link
-                to="/services"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
-                Services
-              </Link>
-            </li>
+
             <li className="nav-item">
               <Link
                 to="/products"
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                Games
               </Link>
             </li>
 
+            <li className="nav-item">
+              <Link
+                to="/metaverse"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                Metaverse
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link to="/nfts" className="nav-links" onClick={closeMobileMenu}>
+                NFTs
+              </Link>
+            </li>
+            <li className="nav-item">
+              <Link
+                to="/about-me"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                About Me
+              </Link>
+            </li>
             <li>
               <Link
                 to="/sign-up"
